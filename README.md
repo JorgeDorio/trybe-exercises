@@ -19,7 +19,7 @@ Contém todas as atividades desenvolvidas por **[mim](https://www.linkedin.com/i
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: [Introdução à HTML e CSS]()
+##### Bloco 3: [Introdução à HTML e CSS](https://github.com/JorgeDorio/trybe-exercises/tree/main/Fundamentals%20of%20Web%20Development/03%20-%20Introduction%20to%20HTML%20and%20CSS)
 
 - [x] 3.1 - HTML e CSS - O que é e para que serve
 - [ ] 3.2 - HTML e CSS - Entendendo os comandos
