@@ -1,6 +1,13 @@
-h1{font-size: 65px;
-color: orange;}
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+}
 
-li{
+li {
   background-color: gray;
+}
+
+p{
+  font-weight: 600;
 }
