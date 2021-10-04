@@ -11,6 +11,7 @@ p, li {
 
 .trybe-green {
   color: #11a36a;
+
 }
 
 .profilePic {
@@ -21,4 +22,26 @@ p, li {
   font-size: 1.75rem;
   font-weight: 600;
   line-height: 2.25rem;
+}
+
+#main-title {
+  font-size: 2.8125rem;
+  line-height: 3.4375rem;
+  font-weight: 600;
+  letter-spacing: -0.0625rem;
+  color: darkblue
+  ;
+}
+
+.testimonial-name{
+  font-size: 0.875rem;
+}
+
+a{
+  background-color: #11a36a;
+  color: aliceblue;
+  padding: 0.9375rem 1.875rem 0.9375rem 1.875rem;
+  margin: 0.625rem 0 0.9375rem 0;
+  text-decoration: none;
+  border-radius: 0.3125rem;
 }
