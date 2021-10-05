@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Montserrat, sans-serif;
 }
@@ -22,6 +27,7 @@ p, li {
   font-size: 1.75rem;
   font-weight: 600;
   line-height: 2.25rem;
+  margin-bottom: 1.88rem;
 }
 
 #main-title {
@@ -29,8 +35,8 @@ p, li {
   line-height: 3.4375rem;
   font-weight: 600;
   letter-spacing: -0.0625rem;
-  color: darkblue
-  ;
+  color: #11a36a;
+  margin-bottom: 1.88rem;
 }
 
 .testimonial-name{
@@ -44,4 +50,32 @@ a{
   margin: 0.625rem 0 0.9375rem 0;
   text-decoration: none;
   border-radius: 0.3125rem;
+  margin: 2.19rem auto 0.94rem auto;
+}
+
+.header{
+  background-image: url(https://uploads-ssl.webflow.com/5d4c18a28620ae5d4f33af94/5d4c18a28620ae56f733b01a_hero-image.jpg);
+  background-size: cover;
+  background-position: 50% 25%;
+  padding: 3.75rem 1.88rem 2.5rem;
+  }
+
+.header-content{
+  max-width: 40.63rem;
+}
+
+.header-content p {
+  max-width: 80%;
+  margin-bottom: 1.88rem;
+}
+
+.market{
+  padding: 4.38rem 1.88rem;
+  text-align: center;
+}
+
+.market p{
+  max-width: 60%;
+  margin: auto;
+  line-height: 1.5rem;
 }
