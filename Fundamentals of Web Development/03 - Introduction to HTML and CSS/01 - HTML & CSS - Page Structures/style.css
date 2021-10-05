@@ -79,3 +79,51 @@ a{
   margin: auto;
   line-height: 1.5rem;
 }
+
+.student-testimonial{
+  padding: 1.88rem 4.38rem 5.63rem 4.38rem;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.student-content{
+  width: 30%;
+  margin: 0.63rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.student-content p {
+  margin: 0.63rem 0;
+}
+
+.learnig{
+  padding: 1.88rem 4.38rem;
+  min-height: 21.88rem;
+}
+
+.learnig li {
+  margin-bottom: 1.88rem;
+  list-style-type: square;
+}
+
+.learnig-left{
+  float: left;
+  max-width: 35%;
+}
+
+.learnig-right{
+  float: right;
+  margin-right: 3.75rem;
+}
+
+footer{
+  text-align: center;
+  padding: 2.5rem;
+}
+
+footer a{
+  display: block;
+  width: 18.13rem;
+}
