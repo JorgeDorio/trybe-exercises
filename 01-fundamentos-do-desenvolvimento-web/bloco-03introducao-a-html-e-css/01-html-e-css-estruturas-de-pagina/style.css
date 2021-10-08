@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+p, li {
+  color: #475550;
+  font-size: 1rem;
+}
+
+.trybe-green {
+  color: #11a36a;
+
+}
+
+.profilePic {
+  border-radius: 100%;
+}
+
+.section-title{
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  margin-bottom: 1.88rem;
+}
+
+#main-title {
+  font-size: 2.8125rem;
+  line-height: 3.4375rem;
+  font-weight: 600;
+  letter-spacing: -0.0625rem;
+  color: #11a36a;
+  margin-bottom: 1.88rem;
+}
+
+.testimonial-name{
+  font-size: 0.875rem;
+}
+
+a{
+  background-color: #11a36a;
+  color: aliceblue;
+  padding: 0.9375rem 1.875rem 0.9375rem 1.875rem;
+  margin: 0.625rem 0 0.9375rem 0;
+  text-decoration: none;
+  border-radius: 0.3125rem;
+  margin: 2.19rem auto 0.94rem auto;
+}
+
+.header{
+  background-image: url(https://uploads-ssl.webflow.com/5d4c18a28620ae5d4f33af94/5d4c18a28620ae56f733b01a_hero-image.jpg);
+  background-size: cover;
+  background-position: 50% 25%;
+  padding: 3.75rem 1.88rem 2.5rem;
+  }
+
+.header-content{
+  max-width: 40.63rem;
+}
+
+.header-content p {
+  max-width: 80%;
+  margin-bottom: 1.88rem;
+}
+
+.market{
+  padding: 4.38rem 1.88rem;
+  text-align: center;
+}
+
+.market p{
+  max-width: 60%;
+  margin: auto;
+  line-height: 1.5rem;
+}
+
+.student-testimonial{
+  padding: 1.88rem 4.38rem 5.63rem 4.38rem;
+  width: 85%;
+  margin: auto;
+  text-align: center;
+}
+
+.student-content{
+  width: 30%;
+  margin: 0.63rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.student-content p {
+  margin: 0.63rem 0;
+}
+
+.learnig{
+  padding: 1.88rem 4.38rem;
+  min-height: 21.88rem;
+}
+
+.learnig li {
+  margin-bottom: 1.88rem;
+  list-style-type: square;
+}
+
+.learnig-left{
+  float: left;
+  max-width: 35%;
+}
+
+.learnig-right{
+  float: right;
+  margin-right: 3.75rem;
+}
+
+footer{
+  text-align: center;
+  padding: 2.5rem;
+}
+
+footer a{
+  display: block;
+  width: 18.13rem;
+}
