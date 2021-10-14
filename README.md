@@ -6,14 +6,14 @@ Contém todas as atividades desenvolvidas por **[mim](https://www.linkedin.com/i
 
 ## Fundamentos do Desenvolvimento Web
 
-##### Bloco 1: [Unix, Bash e Shell Script]()
+##### Bloco 1: [Unix, Bash e Shell Script](https://github.com/JorgeDorio/trybe-exercises/tree/main/01-fundamentos-do-desenvolvimento-web/bloco-01-unix-e-bash)
 
 - [x] 1.3 - Fundamentos do Desenvolvimento Web
 - [x] 1.3 - Introdução - Unix & Shell
 - [x] 1.3 - Unix & Bash - Parte 1
 - [x] 1.4 - Unix & Bash - Parte 2
 
-##### Bloco 2: [Git, GitHub e Internet]()
+##### Bloco 2: [Git, GitHub e Internet](https://github.com/JorgeDorio/trybe-exercises/tree/main/01-fundamentos-do-desenvolvimento-web/bloco-02-git%20github-e-internet)
 
 - [x] 2.1 - Git & GitHub - O que é e para que serve
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
@@ -27,7 +27,7 @@ Contém todas as atividades desenvolvidas por **[mim](https://www.linkedin.com/i
 - [x] 3.4 - HTML Semântico
 - [x] 3.5 - Projeto - Lessons Learned
 
-##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]()
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/JorgeDorio/trybe-exercises/tree/main/01-fundamentos-do-desenvolvimento-web/bloco-04-introdu%C3%A7%C3%A3o-a-javascript-e-logica-de-programacao)
 
 - [x] 4.1 - JavaScript - Primeiros passos
 - [x] 4.2 - JavaScript - Array e loop For
