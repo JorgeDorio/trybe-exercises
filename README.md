@@ -22,7 +22,25 @@ Contém todas as atividades desenvolvidas por **[mim](https://www.linkedin.com/i
 ##### Bloco 3: [Introdução à HTML e CSS](https://github.com/JorgeDorio/trybe-exercises/tree/main/Fundamentals%20of%20Web%20Development/03%20-%20Introduction%20to%20HTML%20and%20CSS)
 
 - [x] 3.1 - HTML e CSS - O que é e para que serve
-- [ ] 3.2 - HTML e CSS - Entendendo os comandos
-- [ ] 3.3 - HTML e CSS - Entendendo como ela funciona
-- [ ] 3.4 - HTML Semântico
-- [ ] 3.5 - Projeto - Lessons Learned
+- [x] 3.2 - HTML e CSS - Entendendo os comandos
+- [x] 3.3 - HTML e CSS - Entendendo como ela funciona
+- [x] 3.4 - HTML Semântico
+- [x] 3.5 - Projeto - Lessons Learned
+
+##### Bloco 4: [Introdução à JavaScript e Lógica de Programação]()
+
+- [x] 4.1 - JavaScript - Primeiros passos
+- [x] 4.2 - JavaScript - Array e loop For
+- [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
+- [ ] 4.4 - JavaScript - Objetos e funções
+- [ ] 4.5 - Projeto - Playground Functions
+
+##### Bloco 05: [JavaScript: DOM, Eventos e Web Storage]()
+
+- [ ] 4.5 - JavaScript - DOM e seletores
+- [ ] 4.5 - JavaScript - Trabalhando com elementos
+- [ ] 4.5 - JavaScript - Eventos
+- [ ] 4.5 - JavaScript - Web Storage
+- [ ] 4.5 - Projeto - Arte com Pixels
+- [ ] 4.5 - Projeto - Lista de tarefas
+- [ ] 4.5 - Projetos - Meme Generator - Advinhe a Cor - Carta Misteriosa
