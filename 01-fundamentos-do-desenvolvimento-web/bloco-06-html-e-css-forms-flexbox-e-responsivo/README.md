@@ -1,15 +1,20 @@
-# HTML & CSS - Forms
+# CSS Flexbox - Parte 1
 
 ## O que vamos aprender?
 
-Na aula de hoje, vamos aprender sobre formulários em HTML , que são uma forma de enviar informações para outra página do seu site ou para um servidor.
+Você vai aprender sobre CSS Flexbox Layout ( Flexible Box ). Flexbox é um módulo que visa fornecer uma maneira mais eficiente de organizar, alinhar e distribuir espaço entre os itens em um container , mesmo quando seu tamanho é desconhecido.
+
+Um container pode ser qualquer elemento HTML que contenha outros elementos, como, por exemplo, uma div ou section . Esse elemento pai é chamado de container , e os elementos filhos serão os itens.
+
+A ideia principal por trás do "layout flexível" é dar ao container a habilidade de alterar o tamanho ( width e height ) e a ordem dos itens para melhor ocupar o espaço disponível. Essa habilidade nos permite acomodar uma página em todos os tipos de dispositivos e tamanhos de tela.
 
 ## Você será capaz de:
 
-- Criar formulários em HTML com as tags : input , button , textarea , select , form .
+- Utilizar CSS Flexbox para criar layouts flexíveis;
+- Utilizar CSS Flexbox para alterar o comportamento de containers .
 
 ## Por que isso é importante?
 
-Quantas vezes você já se deparou com um formulário de cadastro, uma página de login, ou até mesmo precisou enviar um arquivo para o servidor? Isso é bem comum, não é mesmo? A tag form do HTML , juntamente com seus elementos, te permite criar todos esses tipos de interação com o usuário.
+O acesso à Internet não é feito apenas por computadores e notebooks. Tablets e principalmente smartphones também são utilizados para essa função. Com tantos dispositivos e tamanhos diferentes de telas, um design responsivo é necessário para promover a melhor experiência possível aos visitantes, independentemente do dispositivo e tela que estejam usando.
 
-Após o curso da Trybe, no seu dia a dia de trabalho, será comum encontrar tarefas que, no fim das contas, são de criação de formulário. Por isso, é importante entender como um formulário funciona.
+Flexbox é uma ferramenta que nos permitirá criar páginas com design responsivo de forma simples e organizada.
