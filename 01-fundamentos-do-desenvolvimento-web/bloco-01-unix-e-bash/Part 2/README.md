@@ -193,7 +193,7 @@ Na imagem abaixo temos um tabela com os comandos vistos hoje, juntamente com uma
 ## Parte II - Permissões
 
 1. Navegue até a pasta **unix_tests** ;
-2. Rode o comando **[ls](https://linux.die.net/man/1/ls) -l** e veja quais as permissões dos arquivos;
+2. Rode o comando **[ls](https://**linux**.die.net/man/1/ls) -l** e veja quais as permissões dos arquivos;
 3. Mude a permissão do arquivo **bunch_of_things.txt** para que todos os usuários possam ter acesso à leitura e escrita, e verifique se está correto com o comando **ls -l** ;
 
    > Resultado esperado: **-rw-rw-rw- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt**
@@ -206,7 +206,7 @@ Na imagem abaixo temos um tabela com os comandos vistos hoje, juntamente com uma
 ## Parte III - Processos & Jobs
 
 1. Liste todos os processos;
-2. Agora use o comando **[sleep](https://linux.die.net/man/3/sleep) 30 [&](https://linuxhandbook.com/run-process-background/)** ;
+2. Agora use o comando **[sleep](https://**linux**.die.net/man/3/sleep) 30 [&](https://**linux**handbook.com/run-process-background/)** ;
 3. Use a listagem de processos para encontrar o PID do processo que está executando o comando **sleep 30** e termine a sua execução <s>(mate o processo)</s> ;
 4. Execute novamente o comando **sleep 30** , mas agora sem o **&** . Depois, faça com que ele continue executando em background;
 5. Crie um processo em background que rode o comando **sleep** por 300 segundos.
@@ -216,3 +216,34 @@ Na imagem abaixo temos um tabela com os comandos vistos hoje, juntamente com uma
    > Você vai precisar trazer o processo para foreground ( **fg** ) e suspendê-lo ( **ctrl+z** ), ou enviar um sinal.
 8. Retome a execução do processo **sleep 100** em background com o comando bg .
 9. Termine a execução de todos os processos **sleep** <s>(mate os processos)</s> .
+
+## (Bônus) - Parte IV - O despertar do terminal
+
+E pra terminar com a energia óh, lá no alto, que tal aprender agora alguns comandos divertidos do Unix? ☝ 🎊
+
+1. Se você utiliza o **Linux** , abra o terminal e execute o comando **sudo apt-get install cmatrix** , ou para pessoas usuárias de **macOS** , utilize no terminal **brew install cmatrix** . Depois, execute o comando **cmatrix** . Quando estiver se sentindo como o _Neo_ , aperte **ctrl+c** para voltar ao terminal;
+2. No sistema **Linux** , execute o comando **sudo apt-get install fortune** , ou no **macOS** **brew install fortune** , e após a instalação, crie um arquivo de texto chamado **fortune.txt** que contenha a sua sorte do dia. Utilize apenas uma linha de comando. Dica: use o comando **fortune** , e o operador **>** ;
+3. Conte quantas palavras tem a frase da sua sorte do dia. Dica: use o comando **_wc_** ;
+4. Execute o comando **sudo apt-get install sl** em um terminal **Linux** , ou **brew install sl** em um terminal **macOS** . Após a instalação, execute o comando **sl** . Agora tente **sl -F** ;
+5. No sistema **Linux** , execute o comando **sudo apt-get install cowsay** , ou **brew install cowsay** no **macOS** . Após a instalação, execute o comando **cowsay** e algo que você queira falar. Agora faça a vaquinha dizer a frase que está gravada no arquivo **fortune.txt** ;
+6. Descubra os fatores primos usando o comando **factor** e em seguida o número 42 ;
+7. Veja como fica a sua sorte do dia ao contrário. Dica: utilize o comando **rev** .
+   8 Execute o comando telnet **towel.blinkenlights.nl** e espere alguns segundos. Lembre-se que você tem mais exercícios para fazer! 😅
+
+Gostou das curiosidades? Nos Recursos Adicionais tem mais alguns comandos divertidos. Confere lá!
+
+## Recursos Adicionais (opcional)
+
+E aí, gostou do que aprendeu até aqui? Nesta parte nós colocamos outras referências para você se aprofundar sobre o tema. Artigos, tutoriais, livros etc:
+
+- [Coleção de recursos sobre Shell e Bash](https://aurelio.net/shell/)
+- [Entenda mais sobre permissões utilizando chmod](http://ftp.kh.edu.tw/Linux/Redhat/en_6.2/doc/gsg/s1-navigating-chmodnum.htm)
+- [Calculadora de permissões do Linux 😜](https://chmod-calculator.com/)
+- [Programando em Shell Script](http://www.devin.com.br/shell_script/)
+- [Qual a diferença entre bash e shell? <s>nenhuma</s>](https://pt.phhsnews.com/what-s-difference-between-bash-zsh-and-other-linux-shells3733)
+- [11 comandos divertidos (e inúteis) para usar no Linux](https://canaltech.com.br/linux/11-comandos-divertidos-e-inuteis-para-usar-no-linux/)
+
+### ⚠️ O sinal de % não é necessário antes da execução dos comandos listados nos links dos conteúdos abaixo.
+
+- [Unix - Inputs e outputs no terminal](http://www.ee.surrey.ac.uk/Teaching/Unix/unix3.html)
+- [Unix - Direitos de acesso e lidando com processos](http://www.ee.surrey.ac.uk/Teaching/Unix/unix5.html)
